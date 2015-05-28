@@ -1,0 +1,63 @@
+<!DOCTYPE = html>
+<!--  // Jason E Anderson, ja@adadu.com, May 21 2015
+      // CodeFellows, HW7 Donut Shop -->
+<html>
+  <head>
+    <title>Donut Shop</title>
+    <link rel="stylesheet" type="text/css" href="hw7-donut.css" />
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>DONUT SHOP</h1>
+
+      <div class="center">
+        <img src="http://adadu.com/code/cf_f1/hw6/donut-lynch.jpg"  width="600" height="411" alt="Twin Peaks Donuts" />
+      </div>
+      <h2>Donut Shop Manager View</h2>
+      <p>Add a donut shop.</p>
+
+       <table id="donutAdd">
+        <tbody id="add">
+          <tr>
+            <th>Location</th>
+            <th>Hours</th>
+            <th>Min Cust</th>
+            <th>Max Cust</th>
+            <th>Avg Donut</th>
+          </tr>
+          <!--
+          <form>
+            <tr>
+              <td><input type="text" id="l" name="Location" placeholder="Location"></input></td>
+              <td><input type="text" id="h" name="Hours" placeholder="Hours"></input></td>
+              <td><input type="text" id="mn" name="Min" placeholder="Minimum Customers"></input></td>
+              <td><input type="text" id="mx" name="Max" placeholder="Maximum Customers"></input></td>
+              <td><input type="text" id="d" name="Donuts" placeholder="Avg Donuts/Customer"></input></td>
+            </tr>
+            <tr>
+            <td><button type="button" id="btn" name="Button"></button></td>
+            </tr>
+          </form>
+          -->
+        </tbody>
+        </table>
+
+
+      <p>Hover over location to view details.</p>
+
+      <table id="donutTable">
+        <tbody id="report">
+          <tr class="donut">
+            <th class="italBlue">Select Donut Shop</th>
+            <th>Shop Hours</th>
+            <th>Donuts Per Hour</th>
+            <th>Donuts Per Day</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="hw7-donut.js"></script>
+  </body>
+</html>

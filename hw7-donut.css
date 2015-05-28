@@ -1,0 +1,100 @@
+body {
+  font:normal 16px;
+  font-family:  'Raleway', sans-serif;
+  background-image: url("http://adadu.com/code/cf_f1/hw6/donut-lynch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wrapper {
+  background-color: #f9f;
+  padding:20px;
+  margin: 0px auto;
+  width: 757px;
+  border:3px solid #ccc;
+  opacity: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.center img {
+  padding:0;
+  margin:0;
+  border: 6px solid #ccc;
+}
+
+.italBlue {
+  font-style: oblique;
+  color: #606;
+}
+
+#donutTable {
+  background-color:#fcf;
+  border:#ccc 3px solid;
+  padding: 0;
+  margin:0;
+  border:#ccc solid 3px;
+  width:100%;
+  opacity: 0;
+}
+
+#donutTable th {
+  background-color: #fcf;
+  text-align: right;
+  padding:3px;
+  margin:0;
+  border:none;
+}
+
+#donutTable tr {
+  padding: 0;
+  margin:0;
+  border:none;
+}
+
+#donutTable td {
+  text-align: right;
+  background-color:#fff;
+  padding: 3px 3px 0px 3px;
+  margin:0;
+  border:none;
+}
+
+#donutAdd {
+  background-color:#fcf;
+  border:#ccc 3px solid;
+  padding: 0;
+  margin:0;
+  border:#ccc solid 3px;
+  width:100%;
+}
+
+#donutAdd th {
+  background-color: #fcf;
+  text-align: left;
+  padding:3px;
+  margin:0;
+  border:none;
+}
+
+input {
+width:130px;
+margin-bottom: 10px;
+}
+
+button {
+  padding: 20px;
+}
+
+tbody {
+  padding:0px;
+  margin:0;
+  border:none;
+}
+
+h1, h2 {
+  font-family:  'Raleway', sans-serif;
+  font-weight:700;
+}
